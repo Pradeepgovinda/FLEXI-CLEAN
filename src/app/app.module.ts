@@ -3,18 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { HeaderComponent } from './header/header.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { HomeComponent } from './home/home.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginComponent } from './auth/login/login.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+// import { HomeComponent } from './components/home/home.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
+import { OtpVerifyedComponent } from './auth/otp-verifyed/otp-verifyed.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     // HeaderComponent,
+    LoginComponent,
+    DashboardComponent,
+    // HomeComponent,
     SidenavComponent,
-    HomeComponent,
-    DashboardComponent
+    ForgotPasswordComponent,
+    OtpVerifyedComponent
   ],
   imports: [
     BrowserModule,
@@ -24,3 +32,4 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
