@@ -9778,6 +9778,10 @@ html {
   .o-hidden {
     overflow: hidden !important;
   }
+
+  .text-sm{
+    font-size: 1rem;
+  }
   
   .text-xs {
     font-size: .7rem;
@@ -9785,6 +9789,10 @@ html {
   
   .text-lg {
     font-size: 1.2rem;
+  }
+
+  .text-xl {
+    font-size: 2.8rem;
   }
   
   .text-gray-100 {
@@ -10484,6 +10492,7 @@ html {
   
   .sidebar-dark .sidebar-brand {
     color: #9A9DA5;
+    margin-bottom: 25px;
   }
   
   .sidebar-dark hr.sidebar-divider {
@@ -10496,8 +10505,9 @@ html {
 
   .sidebar-dark .nav-item .nav-link {
     color: #9A9DA5;
-    margin-left: 10px;
+    /* margin-left: 30px; */
     font-family: 'Poppins, Medium';
+    padding: 10px;
 }
   
   .sidebar-dark .nav-item .nav-link i {
@@ -10505,8 +10515,11 @@ html {
   }
   
   .sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:hover {
-    color: #1D4893;
+    color: #1E4796;
     font-weight: 700;
+    background-color: #d5d5d6;
+    width: auto;
+    padding: 10px;
   }
   
   .sidebar-dark .nav-item .nav-link:active i, .sidebar-dark .nav-item .nav-link:focus i, .sidebar-dark .nav-item .nav-link:hover i {
